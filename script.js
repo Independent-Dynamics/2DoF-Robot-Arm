@@ -74,9 +74,9 @@ function updateArm() {
   drawArm(angle1, angle2, angle3);
 }
 
-angle1Slider.addEventListener("input", updateArm);
-angle2Slider.addEventListener("input", updateArm);
-angle3Slider.addEventListener("input", updateArm);
+angle1Slider.addEventListener("change", updateArm);
+angle2Slider.addEventListener("change", updateArm);
+angle3Slider.addEventListener("change", updateArm);
 
 resetBtn.addEventListener("click", () => {
   angle1Slider.value = 75;
