@@ -1,0 +1,26 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f4 url("img/background.png") no-repeat top left;
+  background-size: 150px; /* ajusta o tamanho da imagem */
+}
+
+canvas {
+  border: 1px solid #333;
+  background: #fff;
+  margin-top: 20px;
+}
+
+.controls {
+  margin-top: 20px;
+}
+
+.slider-group {
+  margin: 10px 0;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 20px;
+  font-size: 16px;
+}
